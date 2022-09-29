@@ -1,13 +1,7 @@
-#Progetto Intelligenza Artificiale
-##Dropout Accademico
-##Gruppo: La Triade
-###Marco Benito Tomasone
-###Luca Genova
-###Simone Boldrini
-###2021-2022
+# Progetto Intelligenza Artificiale (2021/2022): Dropout Accademico
+## Gruppo: La Triade
 
-
-emphDropout è un termine con il quale vengono indicati i ragazzi che
+Dropout è un termine con il quale vengono indicati i ragazzi che
 decidono di abbandonare un percorso di studio prima della fine dello
 stesso. Il fenomeno del Dropout può avere ripercussioni molto importanti
 sulla vita dello studente ed è anche un fenomeno economicamente
@@ -21,7 +15,7 @@ potenziamento) per aiutare i ragazzi ed evitare il fenomeno del Dropout.
 Il lavoro proposto vuole valutare la possibilità di predire
 anticipatamente in vari momenti la possibilità che uno studente
 abbandoni gli studi. I momenti principali sui quali ci andremo a
-concentrare saranno tre
+concentrare saranno tre:
 
 1.  Al momento dell'immatricolazione, non tenendo quindi conto degli
     esami svolti durante l'anno, ma considerando solo i dati personali
