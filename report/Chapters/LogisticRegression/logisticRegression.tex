@@ -1,0 +1,23 @@
+\documentclass[../../Report.tex]{subfiles}
+\usepackage[italian]{babel}
+
+\begin{document}
+    \section{Regressione Logistica}
+    La regressione logistica é un modello di regressione non lineare utilizzata quando la variabile dipendente é di tipo binario $[0,1]$.
+    Con questo modello stabiliamo la probabilitá con cui un'osservazione puó generare uno o l'altro valore della variabile dipendente; puó essere utilizzato inoltre per classificare le osservazioni in due categorie(come nel nostro caso), facendo riferimento a un problema di classificazione.
+    A differenza dei modelli di regressione lineare che sono utilizzati per identificare la relazione tra una variabile dipendente continua e una o più variabili indipendenti, la regressione logistica stima la probabilitá del verificarsi di un evento, sulla base di uno specifico dataset di variabili indipendenti; verso un insieme di dominio della variabile dipendente $[0,1]$.
+    Una volta calcolato il vettore $\widehat{\beta}$ ossia la stima  del vettore dei parametri $\beta$, é possibile procedere alla stima della probabilitá $p$. Per definizione questa probabilitá é anche il valore atteso di $Y$.
+    $$\widehat{p} = E[Y | X] = \bigwedge (X ^T \widehat{\beta}) = \frac{e^{X^T \widehat{\beta}}}{1 + e^{X^T \widehat{\beta}}}$$ 
+    
+    dove:
+    \begin{itemize}
+        \item $Y$ é la variabile dipendente binaria
+        \item $X$ il vettore di variabili indipendenti(o regressori) $X_1,\dots,X_k$
+        \item $\beta$ il vettore di parametri $\beta_0,\dots,\beta_k$
+        \item $\bigwedge$ é la funzione di ripartizione della distribuzione logistica standard
+        \item $e$ il numero di eulero
+    \end{itemize}
+
+  La regressione logistica appartiene alla famiglia di modelli supervisionati, inoltre,  é considerato un modello discriminante che prova a distinguere tra classi(o categorie).
+    La regressione logistica puó essere incline all'\texttt{overfitting} in particolare quando é presente un numero elevato di variabili predittive nel modello.
+\end{document}

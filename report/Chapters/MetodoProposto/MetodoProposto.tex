@@ -1,0 +1,13 @@
+\documentclass[../Report.tex]{subfiles}
+\usepackage[italian]{babel}
+\begin{document}
+    \chapter{Metodo Proposto}
+    Questo studio ha come obiettivo quello di andare a valutare la possibilità di predire l'abbandono universitario di uno studente prima che questo avvenga. Per farlo siamo andati a valutare tre possibili momenti di previsione, il momento dell'iscrizione, la fine del primo semestre del primo anno di corso e la fine del primo anno di corso. La scelta sui tre modelli da utilizzare, cioè Regressione Logistica, Random Forest e Support Vector Machine, è stata dettata da interessi personali nello studio del funzionamento di questi modelli e dal fatto che questi siano i modelli più utilizzati in letteratura per risolvere problemi simili di predizione. Inoltre, un'altro importante motivo alla base di questa scelta è il fatto che siano stati utilizzati dall'altro lavoro che utilizza il Dataset dell'UniBo \cite{DelBonifro} per avere un riferimento per il confronto dei risultati ottenuti.\\
+    Successivamente abbiamo fatto un tentativo di Ensamble Learning utilizzando lo Stacking Algorithm con l'idea di migliorare le prestazioni rispetto ai tre modelli.
+    
+    \subfile{../LogisticRegression/logisticRegression.tex}
+    \subfile{../SVM/SVM.tex}
+    \subfile{../RandomForest/RandomForest.tex}
+    \subfile{../StackingAlgorithm/StackingAlgorithm.tex}
+    
+\end{document}

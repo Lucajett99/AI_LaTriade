@@ -1,0 +1,12 @@
+\documentclass[../../Report.tex]{subfiles}
+\usepackage[italian]{babel}
+\begin{document}
+    \section{Ensemble Learning: Stacking Algorithm}
+    Abbiamo anche provato una metodologia per aumentare le prestazioni del sistema utilizzando modelli multipli per ottenere una migliore prestazione predittiva rispetto ai modelli da cui è costituito, lo \textbf{Stacking algorithm}.\\
+    Stacking o Stacked Generalization è un algoritmo di apprendimento automatico di insieme. Utilizza un algoritmo di meta-apprendimento per apprendere come combinare al meglio le previsioni di due o più algoritmi di apprendimento automatico di base.\\
+    L’architettura di un modello di impilamento (stacking model) coinvolge due o più modelli di base, spesso indicati come modelli di livello 0 e un meta-modello che combina le previsioni dei modelli di base indicati come modello di livello 1:
+    \begin{itemize}
+        \item Modelli di livello 0 (modelli di base): i modelli si adattano ai dati di addestramento e le cui previsioni vengono compilate.
+        \item Modello di livello 1 (Meta-Modello): modello che impara a combinare al meglio le previsioni dei modelli di base.
+    \end{itemize}
+\end{document}
