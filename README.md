@@ -1,4 +1,4 @@
-# Progetto Intelligenza Artificiale (2021/2022): Dropout Accademico
+# Progetto Intelligenza Artificiale (2021/2022): <br> Dropout Accademico
 ## Gruppo: La Triade
 
 Dropout è un termine con il quale vengono indicati i ragazzi che
